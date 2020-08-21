@@ -42,6 +42,16 @@
         <servlet-name>GetRequestInfo</servlet-name>
         <url-pattern>/getInfo</url-pattern>
     </servlet-mapping>
+
+    <!-- 第五次请求 设置响应信息 -->
+    <servlet>
+        <servlet-name>SetResponceInfo</servlet-name>
+        <servlet-class>two.SetResponceInfo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetResponceInfo</servlet-name>
+        <url-pattern>/setInfo</url-pattern>
+    </servlet-mapping>
     
     
 </web-app>
